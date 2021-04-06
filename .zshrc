@@ -71,4 +71,3 @@ if ! zplug check --verbose; then
     fi
 fi
 zplug load
-. "/root/.acme.sh/acme.sh.env"

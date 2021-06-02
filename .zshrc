@@ -54,6 +54,7 @@ zplug 'plugins/extract', from:oh-my-zsh
 zplug "themes/ys", from:oh-my-zsh, as:theme
 zplug "junegunn/fzf"
 zplug "junegunn/fzf-bin",     from:gh-r,     as:command,     rename-to:fzf,     use:"*linux*amd64*"
+zplug "plugins/git",   from:oh-my-zsh
 source ~/.zplug/repos/junegunn/fzf/shell/completion.zsh
 source ~/.zplug/repos/junegunn/fzf/shell/key-bindings.zsh
 

@@ -41,10 +41,10 @@ zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "rimraf/k"
-zplug "b4b4r07/enhancd", use:init.sh
 zplug "b4b4r07/emoji-cli"
 zplug "mrowa44/emojify", as:command
 zplug "k4rthik/git-cal", as:command
+zplug "plugins/git",   from:oh-my-zsh
 zplug "lib/completion", from:oh-my-zsh
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "plugins/man", from:oh-my-zsh
@@ -71,3 +71,6 @@ if ! zplug check --verbose; then
     fi
 fi
 zplug load
+alias ls='ls --color'
+alias ll='ls -lh'
+alias la='ls -alh'
